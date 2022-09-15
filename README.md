@@ -3,6 +3,7 @@ This Command and Control PoC is made to crossthe red sea of blue teaming solutio
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" data-canonical-src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" height="600" />
+  Amazing picture made by some dude with Midjourney
 </p>
 
 ## Features
@@ -22,7 +23,7 @@ This Command and Control PoC is made to crossthe red sea of blue teaming solutio
 
 ## Make your own covert channel
 
-## Buts and if's
+## But's and if's
 Not this is no bulletproof one-stop-shop. You could probably find bugs in this PoC, if not many ways to detect this. This is just an effort to see how far I can get trying to evade stuff I know exist. But I dont know everything that exists, so I am relying on community feedback here. Find a way to do it better, say so. Or keep it a secret.... 
 
 Up to you gentlepeople
