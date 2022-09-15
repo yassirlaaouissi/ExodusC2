@@ -1,7 +1,7 @@
 # ExodusC2
 This Command and Control PoC is made to cross the red sea of blue teaming solutions. ExodusC2 is not to be confused with the mobile malware strain called Exodus, and no I am not christian though I like the biblical reference. Operating from a client-server model, it evades at least most commercial EDR solutions. Beacons in ExodusC2 leverage from integration of ScareCrow, a famous EDR bypassing tool for C2 agents. The ability to implement your own covert channel and beacon config is a big plus to try and evade network detection. 
 
-Also attempts will be made to evade syscall recording from an amazing tool based on dtrace. The tool is called dgenerate, made by Jonas Lyk: https://github.com/jonaslyk/temp
+Also attempts will be made to evade syscall recording from an amazing tool based on dtrace. The tool is called dgenerate, made by Jonas Lyk: https://github.com/jonaslyk/temp, big love to that danish lad <3
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" data-canonical-src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" height="600" />
