@@ -1,5 +1,5 @@
 # ExodusC2
-This Command and Control PoC is made to crossthe red sea of blue teaming solutions. Operating from a client-server model, from kernel mode on the victim it evades at least most commercial EDR solutions. The ability to implement your own covert channel is a big plus to try and evade network detection.
+This Command and Control PoC is made to cross the red sea of blue teaming solutions. ExodusC2 is not to be confused with the mobile malware strain called Exodus, and no I am not christian though I like the biblical reference. Operating from a client-server model, from kernel mode on the victim it evades at least most commercial EDR solutions. The ability to implement your own covert channel is a big plus to try and evade network detection.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" data-canonical-src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" height="600" />
