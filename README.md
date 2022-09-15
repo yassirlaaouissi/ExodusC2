@@ -25,7 +25,7 @@ Amazing picture made by some dude with Midjourney
 - Beacon activity logging
 - Custom beacon profiles
 - Proxy awareness
-- Packing with VMProtect, because fuck you thats why: https://github.com/eaglx/VMPROTECT
+- Packing with **Something**, because fuck you thats why
 
 
 ## Readables
