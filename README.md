@@ -13,7 +13,7 @@ Amazing picture made by some dude with Midjourney
 
 ## Features
 - Fully CLI, fancy GUI is for plebs and marketing anyways xD
-- Made in C 
+- Server is python, agent in C 
 - Sneaky evasion tech like scarecrow has, because its cool and all that 😎
 - Can use direct syscalls to bypass user-land EDR/AV hooking
 - Some kind of magic to stop syscalls related to beacon being reported back to user-mode
