@@ -13,7 +13,7 @@ Amazing picture made by some dude with Midjourney
 
 ## Features
 - Fully CLI, fancy GUI is for plebs and marketing anyways xD
-- Server is python, agents in C and Rust
+- Server is python, agents in C++
 - eBPF bypass in agent generation options
 - Sneaky evasion tech like scarecrow has, because its cool and all that 😎
 - Can use direct syscalls to bypass user-land EDR/AV hooking

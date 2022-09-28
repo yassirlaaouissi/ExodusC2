@@ -3,6 +3,10 @@ from termcolor import colored
 import random
 import re
 import ipaddress
+import os
+
+
+
 
 def gen_agent():
     print("gen_agent")
@@ -112,6 +116,9 @@ def post_help(func_name):
 
 def main(argv):
     print_banner()
+    if os.name == 'nt':
+        print(colored("Dont run python in windows you pleb, wtf is wrong with you?!", "red"))
+        sys.exit(2)
     try:
         opts, args = getopt.getopt(argv,"hgbf",["help","gen","bind","files"])
     except Exception as e:
@@ -137,7 +144,7 @@ def main(argv):
             host_files() 
             sys.exit()
     if opts == []:
-        post_help()
+        post_help("main")
         
 
 if __name__ == "__main__":
