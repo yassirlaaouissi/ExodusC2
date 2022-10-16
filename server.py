@@ -82,7 +82,15 @@ def print_banner():
         "The dildo of consequences rarely arrives lubed.",
         "Be a thermostat, not a thermometer",
         "'Meow' - Yoran",
-        "East west, Antoha MC best"
+        "East west, Antoha MC best",
+        "teledildonics: https://youtu.be/RnxcPeemHSc",
+        "In mudge, we trust",
+        "Wait, the world did not end in 2012?!",
+        "I dont wear hats",
+        "Kajit got me into RAMP",
+        "Brvtal Vision - Mercury 200 / March 11 / 9pm-10pm --> 56:10",
+        "Sometimes I feel like lester from GTA V, other days I feel like Rian van Rijbroek",
+        "Please putin dont nuke"
     ]
     print(colored("""
     

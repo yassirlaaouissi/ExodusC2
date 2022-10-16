@@ -13,20 +13,22 @@ Amazing picture made by some dude with Midjourney
 
 ## Features
 - Fully CLI, fancy GUI is for plebs and marketing anyways xD
-- Server is python, agents in C++
+- I like snakes so will be python
+- Windows agent
+  - Might make Linux and OSX agents later
+- Ed25519 for the client-server authentication 
+- Beacon activity logging
+- Custom beacon profiles
+- Packing with **Something**, because fuck you thats why
 - eBPF bypass in agent generation options
 - Sneaky evasion tech like scarecrow has, because its cool and all that 😎
 - Can use direct syscalls to bypass user-land EDR/AV hooking
 - Some kind of magic to stop syscalls related to beacon being reported back to user-mode
 - Built in covert channels:
   - TCP, HTTP, HTTP2, HTTP3, DNS, ICMP, FTP, IMAP, MAPI, DNS over HTTPS (DoH), SMB and anything you can make yourself.
-- Windows agent
-  - Might make Linux and OSX agents later
-- Ed25519 for the client-server authentication 
-- Beacon activity logging
-- Custom beacon profiles
-- Proxy awareness
-- Packing with **Something**, because fuck you thats why
+
+
+
 
 
 ## Readables
