@@ -1,7 +1,7 @@
 # ExodusC2
-This Command and Control PoC is made to cross the red sea of blue teaming solutions. ExodusC2 is not to be confused with the mobile malware strain called Exodus, and no I am not christian though I like the biblical reference. Operating from a client-server model, it (intends to ) evade(s) at least most commercial EDR solutions. Beacons/agents in ExodusC2 leverage from integration of ScareCrow, a famous EDR bypassing tool for C2 agents. The ability to implement your own covert channel and beacon config is a big plus to try and evade network detection. 
+This Command and Control PoC is made to cross the red sea of blue teaming solutions. ExodusC2 is not to be confused with the mobile malware strain called Exodus, and no I am not christian though I like the biblical reference. Operating from a client-server model, it (intends to ) evade(s) at least most commercial EDR solutions. Beacons/clients in ExodusC2 leverage from functions of ScareCrow, a famous payload generation tool payloads that want to evade monitoring solutions. 
 
-Also attempts will be made to evade syscall recording from an amazing tool based on dtrace. The tool is called dgenerate, made by Jonas Lyk: https://github.com/jonaslyk/temp, big love to that danish lad <3 Or you can just use the Rust agent that has imports embedded in the payload, note that this makes the payload a bit bigger.
+Also attempts will be made to evade syscall recording from an amazing tool based on dtrace. The tool is called dgenerate, made by Jonas Lyk: https://github.com/jonaslyk/temp, big love to that danish lad <3
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" data-canonical-src="https://user-images.githubusercontent.com/59022605/190503049-a4ba6757-de2d-4b15-ac09-627b6b9297b8.png" height="600" />
@@ -13,27 +13,26 @@ Amazing picture made by some dude with Midjourney
 
 ## Features
 - Fully CLI, fancy GUI is for plebs and marketing anyways xD
-- I like snakes so will be python
-- Windows agent
-  - Might make Linux and OSX agents later
+- I like snakes so server and client will be python
 - Ed25519 for the client-server authentication 
-- Beacon activity logging
-- Custom beacon profiles
-- Packing with **Something**, because fuck you thats why
-- eBPF bypass in agent generation options
-- Sneaky evasion tech like scarecrow has, because its cool and all that 😎
-- Can use direct syscalls to bypass user-land EDR/AV hooking
-- Some kind of magic to stop syscalls related to beacon being reported back to user-mode
+
+- Customizeable Windows client
+  + Might make Linux and OSX clients later
+  + Beacon activity logging
+  + Packing with **Something**, because fuck you thats why
+  + eBPF bypass to evade network monitoring capabilities
+  + AMSI & ETW Patching
+  + DLL Unhooking
+  + NTAPI callback evasion
+
+- File hosting server
+  + Password based authentication
+  + OTP/2FA is an option; BEWARE to have similiar timezones on client and server need to be configured correctly
+  + Hosting over HTTP and HTTPs
+
 - Built in covert channels:
   - TCP, HTTP, HTTP2, HTTP3, DNS, ICMP, FTP, IMAP, MAPI, DNS over HTTPS (DoH), SMB and anything you can make yourself.
 
-
-
-
-
-## Readables
-- https://adamsvoboda.net/evading-edr-with-scarecrow/
-- https://www.youtube.com/watch?v=x4wauJZPnKg&t=286s
 
 ## Setup
 You either compile or download compiled version
@@ -45,8 +44,6 @@ You either compile or download compiled version
 ## Beacon
 
 ## EDR Evasion
-
-### Evading syscall recording dgenerate
 
 ## Make your own covert channel
 

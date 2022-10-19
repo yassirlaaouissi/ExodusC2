@@ -90,7 +90,8 @@ def print_banner():
         "Kajit got me into RAMP",
         "Brvtal Vision - Mercury 200 / March 11 / 9pm-10pm --> 56:10",
         "Sometimes I feel like lester from GTA V, other days I feel like Rian van Rijbroek",
-        "Please putin dont nuke"
+        "Please putin dont nuke",
+        "La Caution - Thé à la Menthe - The Laser Dance Song"
     ]
     print(colored("""
     
