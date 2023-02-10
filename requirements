@@ -1,0 +1,5 @@
+dnf install patchelf
+dnf install zstd
+python3 -m pip install nuitka
+python3 -m pip install ordered-set
+dnf install python3-devel

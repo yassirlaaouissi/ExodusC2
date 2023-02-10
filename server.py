@@ -4,6 +4,8 @@ import random
 import re
 import ipaddress
 import os
+import socket
+import listener
 
 
 
@@ -11,42 +13,19 @@ import os
 def gen_agent():
     print("gen_agent")
 
-
-def validate_domain(domain):
-    return re.match('''
-        (?=^.{,253}$)          # max. length 253 chars
-        (?!^.+\.\d+$)          # TLD is not fully numerical
-        (?=^[^-.].+[^-.]$)     # doesn't start/end with '-' or '.'
-        (?!^.+(\.-|-\.).+$)    # levels don't start/end with '-'
-        (?:[a-z\d-]            # uses only allowed chars
-        {1,63}(\.|$))          # max. level length 63 chars
-        {2,127}                # max. 127 levels
-        ''', domain, re.X | re.I)
-
-def bind_conn(argv):
+def rev_conn(argv):
     """This is essentially the listener for the reverse shells the beacons create"""
-    lhost = argv[1]
-    lport = argv[2]
+    
+    SERVER_PORT = argv[1]
 
     ## Checking if we have valid stuff 
-    is_domain = True
-    is_ip = True
-    if validate_domain(lhost) == None:
-        is_domain = False
     try:
-        ipaddress.ip_address(lhost)
-    except ValueError:    
-        is_ip = False
-    
-    if is_domain == False and is_ip == False:
-        print(colored("Given LHOST is not a valid IP or domain name", "red"))
-        sys.exit(2)
-
-    if int(lport) not in range(1, 65535):
-        print(colored("Given LPORT is not a valid portnumber", "red"))
+        int(SERVER_PORT) not in range(1, 65535)
+    except ValueError:
+        print(colored("Given SERVER_PORT is not a valid portnumber", "red"))
         sys.exit(2)
     
-
+    listener.main(SERVER_PORT)
 
 def host_files():
     print("host_files")
@@ -88,6 +67,7 @@ def print_banner():
         "Wait, the world did not end in 2012?!",
         "I dont wear hats",
         "Kajit got me into RAMP",
+        "Malware is illegal, and for nerds!"
         "Brvtal Vision - Mercury 200 / March 11 / 9pm-10pm --> 56:10",
         "Sometimes I feel like lester from GTA V, other days I feel like Rian van Rijbroek",
         "Please putin dont nuke",
@@ -108,15 +88,15 @@ def print_banner():
 
 
 def post_help(func_name):
-    if func_name == "bind":
-        print("Usage: > server.py --bind/-b <listening_host> <listening_port>")
-        print("Example: > server.py --bind bingusbongus.com 1337")
+    if func_name == "conn":
+        print("Usage: > server.py --conn/-c <server_port>")
+        print("Example: > server.py --conn 1337")
         print()
         sys.exit()
     else:
         print("> server.py --help/-h       |    Prints this help page") 
         print("> server.py --gen/-g        |    Generate new agent/beacon")
-        print("> server.py --bind/-b       |    Binds to the chosen deployed agent/beacon")  
+        print("> server.py --conn/-c       |    Connects to a chosen deployed beacon")  
         print("> server.py --files/-f      |    Lists options for file hosting")  
         print()
         sys.exit()
@@ -129,7 +109,7 @@ def main(argv):
         print(colored("Dont run python in windows you pleb, wtf is wrong with you?!", "red"))
         sys.exit(2)
     try:
-        opts, args = getopt.getopt(argv,"hgbf",["help","gen","bind","files"])
+        opts, args = getopt.getopt(argv,"hgcf",["help","gen","conn","files"])
     except Exception as e:
         print(e)
         post_help()
@@ -145,9 +125,10 @@ def main(argv):
         elif opt in ("-l", "--listen"):
             listen_conns() 
             sys.exit()
-        elif opt in ("-b", "--bind"):
-            #print(argv)
-            bind_conn(argv) 
+        elif opt in ("-c", "--conn"):
+            if len(argv) != 2:
+                post_help("conn")
+            rev_conn(argv) 
             sys.exit()
         elif opt in ("-f", "--files"):
             host_files() 
