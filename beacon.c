@@ -67,6 +67,7 @@ int main(int argc, char *argv[]) {
     if( argc == 3 ) {
         char IP [16]; strcpy(IP, argv[1]);
         int PORT = atoi(argv[2]);
+        printf("asasasasasa");
         void beacon_connect_back(char IP[16], int PORT);
     }
     else if( argc > 3 ) {
