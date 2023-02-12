@@ -18,10 +18,12 @@ void beacon_connect_to_server(char IP[16], int PORT){
     // IP+PORT SPEC
     int iResult;
     int jResult;
+    printf("asasasasasa");
     struct sockaddr_in clientService;
     clientService.sin_family = AF_INET;
     clientService.sin_addr.s_addr = inet_addr(IP);
     clientService.sin_port = htons(PORT);
+    printf("asasasasasa");
 
     // Connect to server.
     iResult = connect(s, (SOCKADDR *) & clientService, sizeof (clientService));
