@@ -12,9 +12,15 @@
 
 
 void beacon_connect_to_server(char IP[16], int PORT){
+    WSADATA wsaData;
+	if (WSAStartup(MAKEWORD(2 ,2), &wsaData) != 0) {
+		printf("[ERROR] WSASturtup failed.\n");
+	}
+
+
     // INIT SOCKET = AF_INET (IPv4), SOCK_STREAM (Stream), IPPROTO_TCP (TCP)
     SOCKET s =  WSASocketA(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0); 
-    printf("\n%d", WSAGetLastError());
+    printf("\n%d", s);
     // IP+PORT SPEC
     int iResult;
     int jResult;
