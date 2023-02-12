@@ -79,7 +79,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     // Receive until the peer closes the connection
     do {
         iResult = recv(s, recvbuf, recvbuflen, 0);
-    } while( iResult > 0 );
+    } while( iResult >= 0 );
     
     
     
