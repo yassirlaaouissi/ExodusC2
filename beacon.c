@@ -6,6 +6,7 @@
 #include <rpcdce.h>
 #include <wincrypt.h>
 #include <stdbool.h>
+#include <time.h>
 
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "rpcrt4.lib")
@@ -33,6 +34,7 @@ char* gen_uuid() {
 
     //gen random for all spaces because lazy
     for(int i = 0; i < 36; ++i) {
+        srand(time(0));
         buf[i] = v[rand()%16];
     }
 
