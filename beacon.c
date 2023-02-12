@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
         char IP [16]; strcpy(IP, argv[1]);
         int PORT = atoi(argv[2]);
         printf("asasasasasa");
-        void beacon_connect_back(char IP[16], int PORT);
+        beacon_connect_to_server(IP, PORT);
     }
     else if( argc > 3 ) {
         printf("Too many arguments supplied.\n");
