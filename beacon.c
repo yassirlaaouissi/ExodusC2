@@ -45,6 +45,8 @@ char* gen_uuid() {
     //needs end byte
     buf[36] = '\0';
 
+    printf("\n BUF: %s \n", buf);
+
     return buf;
 }
 
@@ -85,7 +87,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     ///UuidToString(&uuid, (RPC_CSTR*) stringified_UUID);
     //char *sendbuf = stringified_UUID;
     char *sendbuf = gen_uuid();
-    printf("\nBonkers: %s\n", &sendbuf);
+    printf("\nBonkers: %s\n", sendbuf);
     char recvbuf[recvbuflen];
 
     // base64 encode the UUID of the beacon
