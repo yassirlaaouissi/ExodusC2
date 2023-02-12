@@ -14,11 +14,11 @@
 void beacon_connect_to_server(char IP[16], int PORT){
     // INIT SOCKET = AF_INET (IPv4), SOCK_STREAM (Stream), IPPROTO_TCP (TCP)
     SOCKET s =  WSASocketA(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0); 
-    
+    printf("\n%d", WSAGetLastError());
     // IP+PORT SPEC
     int iResult;
     int jResult;
-    printf("asasasasasa");
+    printf("\n\n\nasasasasasa");
     struct sockaddr_in clientService;
     clientService.sin_family = AF_INET;
     clientService.sin_addr.s_addr = inet_addr(IP);
