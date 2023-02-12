@@ -1,0 +1,2364 @@
+<nuitka-compilation-report>
+  <module name="__future__" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="__main__" kind="PythonMainModule" reason="Root module">
+    <optimization-time pass="1" time="0.03" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="threading" finding="absolute" line="1" />
+      <module_usage name="subprocess" finding="absolute" line="2" />
+      <module_usage name="socket" finding="absolute" line="3" />
+      <module_usage name="uuid" finding="absolute" line="4" />
+      <module_usage name="base64" finding="absolute" line="5" />
+      <module_usage name="ast" finding="absolute" line="6" />
+      <module_usage name="sys" finding="built-in" line="7" />
+    </module_usages>
+  </module>
+  <module name="_aix_support" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_bisect" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_blake2" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_bootsubprocess" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_bz2" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_codecs_cn" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_codecs_hk" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_codecs_iso2022" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_codecs_jp" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_codecs_kr" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_codecs_tw" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_collections_abc" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_compat_pickle" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_compression" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_contextvars" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_crypt" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_csv" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_ctypes" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_datetime" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_dbm" kind="PythonExtensionModule" reason="Extension module needed for standalone mode.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_decimal" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_elementtree" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_hashlib" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_heapq" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_json" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_lzma" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_markupbase" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_multibytecodec" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_opcode" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_osx_support" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_pickle" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_posixsubprocess" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_py_abc" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_pyio" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_queue" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_random" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_sha512" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_sitebuiltins" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_socket" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_ssl" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_statistics" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_strptime" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_struct" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_sysconfigdata__linux_x86_64-linux-gnu" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_threading_local" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_uuid" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="_weakrefset" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="abc" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="aifc" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="argparse" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="88" />
+      <module_usage name="re" finding="absolute" line="89" />
+      <module_usage name="sys" finding="built-in" line="90" />
+      <module_usage name="gettext" finding="absolute" line="92" />
+      <module_usage name="copy" finding="absolute" line="146" />
+      <module_usage name="shutil" finding="absolute" line="169" />
+      <module_usage name="textwrap" finding="absolute" line="646" />
+      <module_usage name="textwrap" finding="absolute" line="651" />
+      <module_usage name="sys" finding="built-in" line="1125" />
+      <module_usage name="sys" finding="built-in" line="1262" />
+      <module_usage name="warnings" finding="absolute" line="2391" />
+      <module_usage name="sys" finding="built-in" line="2554" />
+      <module_usage name="sys" finding="built-in" line="2559" />
+      <module_usage name="sys" finding="built-in" line="2565" />
+      <module_usage name="sys" finding="built-in" line="2573" />
+      <module_usage name="sys" finding="built-in" line="2585" />
+    </module_usages>
+  </module>
+  <module name="array" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ast" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="audioop" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="base64" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="binascii" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="binhex" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="bisect" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="bz2" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="calendar" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="cgi" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="cgitb" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="chunk" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="cmd" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="code" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="codecs" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="codeop" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="collections" kind="UncompiledPythonPackage" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="collections.abc" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="colorsys" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="configparser" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="contextlib" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="contextvars" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="copy" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="copyreg" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="crypt" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="csv" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes._aix" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes._endian" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes.macholib" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes.macholib.dyld" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes.macholib.dylib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes.macholib.framework" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ctypes.util" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="dataclasses" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="datetime" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="dbm" kind="UncompiledPythonPackage" reason="Containing package of 'dbm.dumb'.">
+    <optimization-time pass="1" time="0.04" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="1" />
+      <module_usage name="sys" finding="built-in" line="1" />
+      <module_usage name="io" finding="absolute" line="32" />
+      <module_usage name="os" finding="absolute" line="33" />
+      <module_usage name="struct" finding="absolute" line="34" />
+      <module_usage name="sys" finding="built-in" line="35" />
+      <module_usage name="dbm" finding="absolute" line="48" />
+      <module_usage name="dbm.ndbm" finding="relative" line="48" />
+    </module_usages>
+  </module>
+  <module name="dbm.dumb" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.01" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="ast" finding="absolute" line="24" />
+      <module_usage name="io" finding="absolute" line="25" />
+      <module_usage name="os" finding="absolute" line="26" />
+      <module_usage name="collections.abc" finding="absolute" line="27" />
+    </module_usages>
+  </module>
+  <module name="dbm.ndbm" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="_dbm" finding="absolute" line="3" />
+    </module_usages>
+  </module>
+  <module name="decimal" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="difflib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="dis" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="email" kind="UncompiledPythonPackage" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="1" />
+      <module_usage name="sys" finding="built-in" line="1" />
+      <module_usage name="email.parser" finding="absolute" line="37" />
+      <module_usage name="email.parser" finding="absolute" line="45" />
+      <module_usage name="email.parser" finding="absolute" line="53" />
+      <module_usage name="email.parser" finding="absolute" line="61" />
+    </module_usages>
+  </module>
+  <module name="email._encoded_words" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.06" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="42" />
+      <module_usage name="base64" finding="absolute" line="43" />
+      <module_usage name="binascii" finding="absolute" line="44" />
+      <module_usage name="functools" finding="absolute" line="45" />
+      <module_usage name="string" finding="absolute" line="46" />
+      <module_usage name="email" finding="absolute" line="47" />
+      <module_usage name="email.errors" finding="relative" line="47" />
+      <module_usage name="functools" finding="absolute" line="64" />
+    </module_usages>
+  </module>
+  <module name="email._header_value_parser" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="4.84" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="70" />
+      <module_usage name="sys" finding="built-in" line="71" />
+      <module_usage name="urllib" finding="absolute" line="72" />
+      <module_usage name="string" finding="absolute" line="73" />
+      <module_usage name="operator" finding="absolute" line="74" />
+      <module_usage name="email" finding="absolute" line="75" />
+      <module_usage name="email._encoded_words" finding="relative" line="75" />
+      <module_usage name="email" finding="absolute" line="76" />
+      <module_usage name="email.errors" finding="relative" line="76" />
+      <module_usage name="email" finding="absolute" line="77" />
+      <module_usage name="email.utils" finding="relative" line="77" />
+    </module_usages>
+  </module>
+  <module name="email._parseaddr" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="time" finding="built-in" line="16" />
+      <module_usage name="calendar" finding="absolute" line="16" />
+    </module_usages>
+  </module>
+  <module name="email._policybase" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.15" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="abc" finding="absolute" line="6" />
+      <module_usage name="email" finding="absolute" line="7" />
+      <module_usage name="email.header" finding="relative" line="7" />
+      <module_usage name="email" finding="absolute" line="8" />
+      <module_usage name="email.charset" finding="relative" line="8" />
+      <module_usage name="email.utils" finding="absolute" line="9" />
+    </module_usages>
+  </module>
+  <module name="email.base64mime" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="base64" finding="absolute" line="37" />
+      <module_usage name="binascii" finding="absolute" line="38" />
+    </module_usages>
+  </module>
+  <module name="email.charset" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.11" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="functools" finding="absolute" line="12" />
+      <module_usage name="email.base64mime" finding="absolute" line="14" />
+      <module_usage name="email.quoprimime" finding="absolute" line="15" />
+      <module_usage name="email" finding="absolute" line="17" />
+      <module_usage name="email.errors" finding="relative" line="17" />
+      <module_usage name="email.encoders" finding="absolute" line="18" />
+    </module_usages>
+  </module>
+  <module name="email.contentmanager" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.10" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="binascii" finding="absolute" line="1" />
+      <module_usage name="email.charset" finding="absolute" line="2" />
+      <module_usage name="email.message" finding="absolute" line="3" />
+      <module_usage name="email.errors" finding="absolute" line="4" />
+      <module_usage name="email" finding="absolute" line="5" />
+      <module_usage name="email.quoprimime" finding="relative" line="5" />
+    </module_usages>
+  </module>
+  <module name="email.encoders" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="base64" finding="absolute" line="15" />
+      <module_usage name="quopri" finding="absolute" line="16" />
+    </module_usages>
+  </module>
+  <module name="email.errors" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="email.feedparser" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.17" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="24" />
+      <module_usage name="email" finding="absolute" line="26" />
+      <module_usage name="email.errors" finding="relative" line="26" />
+      <module_usage name="email._policybase" finding="absolute" line="27" />
+      <module_usage name="collections" finding="absolute" line="28" />
+      <module_usage name="collections.deque" finding="not-found" line="28" />
+      <module_usage name="io" finding="absolute" line="29" />
+      <module_usage name="email.message" finding="absolute" line="151" />
+    </module_usages>
+  </module>
+  <module name="email.generator" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="9" />
+      <module_usage name="sys" finding="built-in" line="10" />
+      <module_usage name="time" finding="built-in" line="11" />
+      <module_usage name="random" finding="absolute" line="12" />
+      <module_usage name="copy" finding="absolute" line="14" />
+      <module_usage name="io" finding="absolute" line="15" />
+      <module_usage name="email.utils" finding="absolute" line="16" />
+    </module_usages>
+  </module>
+  <module name="email.header" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.30" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="13" />
+      <module_usage name="binascii" finding="absolute" line="14" />
+      <module_usage name="email.quoprimime" finding="absolute" line="16" />
+      <module_usage name="email.base64mime" finding="absolute" line="17" />
+      <module_usage name="email.errors" finding="absolute" line="19" />
+      <module_usage name="email" finding="absolute" line="20" />
+      <module_usage name="email.charset" finding="relative" line="20" />
+    </module_usages>
+  </module>
+  <module name="email.headerregistry" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.78" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="types" finding="absolute" line="6" />
+      <module_usage name="email" finding="absolute" line="8" />
+      <module_usage name="email.utils" finding="relative" line="8" />
+      <module_usage name="email" finding="absolute" line="9" />
+      <module_usage name="email.errors" finding="relative" line="9" />
+      <module_usage name="email" finding="absolute" line="10" />
+      <module_usage name="email._header_value_parser" finding="relative" line="10" />
+    </module_usages>
+  </module>
+  <module name="email.iterators" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="sys" finding="built-in" line="14" />
+      <module_usage name="io" finding="absolute" line="15" />
+      <module_usage name="sys" finding="built-in" line="62" />
+    </module_usages>
+  </module>
+  <module name="email.message" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.44" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="9" />
+      <module_usage name="uu" finding="absolute" line="10" />
+      <module_usage name="quopri" finding="absolute" line="11" />
+      <module_usage name="io" finding="absolute" line="12" />
+      <module_usage name="email" finding="absolute" line="15" />
+      <module_usage name="email.utils" finding="relative" line="15" />
+      <module_usage name="email" finding="absolute" line="16" />
+      <module_usage name="email.errors" finding="relative" line="16" />
+      <module_usage name="email._policybase" finding="absolute" line="17" />
+      <module_usage name="email" finding="absolute" line="18" />
+      <module_usage name="email.charset" finding="relative" line="18" />
+      <module_usage name="email._encoded_words" finding="absolute" line="19" />
+      <module_usage name="email.iterators" finding="absolute" line="942" />
+      <module_usage name="email.generator" finding="absolute" line="151" />
+      <module_usage name="email.generator" finding="absolute" line="174" />
+      <module_usage name="email.policy" finding="absolute" line="949" />
+    </module_usages>
+  </module>
+  <module name="email.parser" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.03" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="io" finding="absolute" line="10" />
+      <module_usage name="email.feedparser" finding="absolute" line="12" />
+      <module_usage name="email._policybase" finding="absolute" line="13" />
+    </module_usages>
+  </module>
+  <module name="email.policy" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.09" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="5" />
+      <module_usage name="sys" finding="built-in" line="6" />
+      <module_usage name="email._policybase" finding="absolute" line="7" />
+      <module_usage name="email.utils" finding="absolute" line="8" />
+      <module_usage name="email.headerregistry" finding="absolute" line="9" />
+      <module_usage name="email.contentmanager" finding="absolute" line="10" />
+      <module_usage name="email.message" finding="absolute" line="11" />
+    </module_usages>
+  </module>
+  <module name="email.quoprimime" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="re" finding="absolute" line="42" />
+      <module_usage name="string" finding="absolute" line="44" />
+    </module_usages>
+  </module>
+  <module name="email.utils" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.01" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="25" />
+      <module_usage name="re" finding="absolute" line="26" />
+      <module_usage name="time" finding="built-in" line="27" />
+      <module_usage name="random" finding="absolute" line="28" />
+      <module_usage name="socket" finding="absolute" line="29" />
+      <module_usage name="datetime" finding="absolute" line="30" />
+      <module_usage name="urllib.parse" finding="absolute" line="31" />
+      <module_usage name="email._parseaddr" finding="absolute" line="33" />
+      <module_usage name="email._parseaddr" finding="absolute" line="34" />
+      <module_usage name="email._parseaddr" finding="absolute" line="35" />
+      <module_usage name="email._parseaddr" finding="absolute" line="37" />
+      <module_usage name="email.charset" finding="absolute" line="40" />
+    </module_usages>
+  </module>
+  <module name="encodings" kind="UncompiledPythonPackage" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.aliases" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.ascii" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.base64_codec" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.big5" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.big5hkscs" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.bz2_codec" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.charmap" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp037" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1006" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1026" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1125" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1140" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1250" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1251" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1252" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1253" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1254" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1255" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1256" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1257" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp1258" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp273" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp424" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp437" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp500" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp720" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp737" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp775" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp850" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp852" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp855" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp856" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp857" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp858" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp860" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp861" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp862" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp863" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp864" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp865" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp866" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp869" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp874" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp875" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp932" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp949" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.cp950" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.euc_jis_2004" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.euc_jisx0213" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.euc_jp" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.euc_kr" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.gb18030" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.gb2312" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.gbk" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.hex_codec" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.hp_roman8" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.hz" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.idna" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_jp" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_jp_1" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_jp_2" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_jp_2004" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_jp_3" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_jp_ext" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso2022_kr" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_1" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_10" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_11" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_13" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_14" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_15" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_16" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_2" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_3" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_4" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_5" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_6" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_7" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_8" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.iso8859_9" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.johab" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.koi8_r" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.koi8_t" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.koi8_u" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.kz1048" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.latin_1" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_arabic" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_croatian" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_cyrillic" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_farsi" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_greek" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_iceland" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_latin2" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_roman" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_romanian" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.mac_turkish" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.palmos" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.ptcp154" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.punycode" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.quopri_codec" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.raw_unicode_escape" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.rot_13" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.shift_jis" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.shift_jis_2004" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.shift_jisx0213" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.tis_620" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.undefined" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.unicode_escape" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_16" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_16_be" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_16_le" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_32" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_32_be" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_32_le" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_7" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_8" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.utf_8_sig" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.uu_codec" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="encodings.zlib_codec" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="enum" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="fcntl" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="filecmp" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="fileinput" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="fnmatch" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="fractions" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ftplib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="functools" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="genericpath" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="getopt" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="getpass" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="gettext" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="glob" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="graphlib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="grp" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="gzip" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="hashlib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="heapq" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="hmac" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="html" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="html.entities" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="html.parser" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="http" kind="UncompiledPythonPackage" reason="Containing package of 'http.cookiejar'.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="1" />
+      <module_usage name="sys" finding="built-in" line="1" />
+      <module_usage name="enum" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="http.client" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.08" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="email.parser" finding="absolute" line="71" />
+      <module_usage name="email.message" finding="absolute" line="72" />
+      <module_usage name="errno" finding="built-in" line="73" />
+      <module_usage name="http" finding="absolute" line="74" />
+      <module_usage name="io" finding="absolute" line="75" />
+      <module_usage name="re" finding="absolute" line="76" />
+      <module_usage name="socket" finding="absolute" line="77" />
+      <module_usage name="sys" finding="built-in" line="78" />
+      <module_usage name="collections.abc" finding="absolute" line="79" />
+      <module_usage name="urllib.parse" finding="absolute" line="80" />
+      <module_usage name="ssl" finding="absolute" line="1394" />
+      <module_usage name="warnings" finding="absolute" line="1414" />
+    </module_usages>
+  </module>
+  <module name="http.cookiejar" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="31" />
+      <module_usage name="copy" finding="absolute" line="32" />
+      <module_usage name="datetime" finding="absolute" line="33" />
+      <module_usage name="re" finding="absolute" line="34" />
+      <module_usage name="time" finding="built-in" line="35" />
+      <module_usage name="urllib.parse" finding="absolute" line="36" />
+      <module_usage name="urllib.request" finding="absolute" line="36" />
+      <module_usage name="threading" finding="absolute" line="37" />
+      <module_usage name="http.client" finding="absolute" line="38" />
+      <module_usage name="calendar" finding="absolute" line="39" />
+      <module_usage name="logging" finding="absolute" line="49" />
+      <module_usage name="io" finding="absolute" line="70" />
+      <module_usage name="warnings" finding="absolute" line="70" />
+      <module_usage name="traceback" finding="absolute" line="70" />
+    </module_usages>
+  </module>
+  <module name="imaplib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="imghdr" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="imp" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib" kind="UncompiledPythonPackage" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib._abc" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib._adapters" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib._bootstrap" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib._bootstrap_external" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib._common" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.abc" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.machinery" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata._adapters" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata._collections" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata._functools" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata._itertools" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata._meta" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.metadata._text" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.readers" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.resources" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="importlib.util" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="inspect" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="io" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ipaddress" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="json" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="json.decoder" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="json.encoder" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="json.scanner" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="json.tool" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="keyword" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="linecache" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="locale" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="logging" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="logging.config" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="logging.handlers" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="lzma" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="mailbox" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="mailcap" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="math" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="mimetypes" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="modulefinder" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="netrc" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ntpath" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="os" finding="absolute" line="20" />
+      <module_usage name="sys" finding="built-in" line="21" />
+      <module_usage name="stat" finding="absolute" line="22" />
+      <module_usage name="genericpath" finding="absolute" line="23" />
+      <module_usage name="genericpath" finding="absolute" line="24" />
+      <module_usage name="_winapi" finding="not-found" line="46" />
+      <module_usage name="nt" finding="not-found" line="285" />
+      <module_usage name="nt" finding="not-found" line="557" />
+      <module_usage name="nt" finding="not-found" line="571" />
+      <module_usage name="nt" finding="not-found" line="832" />
+      <module_usage name="string" finding="absolute" line="384" />
+      <module_usage name="string" finding="absolute" line="395" />
+    </module_usages>
+  </module>
+  <module name="nturl2path" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="numbers" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="opcode" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="operator" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="os" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pathlib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.08" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pickle" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pickletools" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pipes" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pkgutil" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="platform" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="poplib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="posixpath" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pprint" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pstats" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pty" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="py_compile" kind="UncompiledPythonModule" reason="Instructed by user to follow all modules, including non-automatic standard library modules.">
+    <optimization-time pass="1" time="0.04" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages>
+      <module_usage name="enum" finding="absolute" line="6" />
+      <module_usage name="importlib._bootstrap_external" finding="built-in" line="7" />
+      <module_usage name="importlib.machinery" finding="absolute" line="8" />
+      <module_usage name="importlib.util" finding="absolute" line="9" />
+      <module_usage name="os" finding="absolute" line="10" />
+      <module_usage name="posixpath" finding="absolute" line="11" />
+      <module_usage name="sys" finding="built-in" line="12" />
+      <module_usage name="traceback" finding="absolute" line="13" />
+      <module_usage name="sys" finding="built-in" line="153" />
+      <module_usage name="argparse" finding="absolute" line="178" />
+    </module_usages>
+  </module>
+  <module name="pyclbr" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="pyexpat" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="queue" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="quopri" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="random" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="re" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="reprlib" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="rlcompleter" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="sched" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="secrets" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="select" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="selectors" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="shelve" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="shlex" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="shutil" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="signal" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="smtpd" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="sndhdr" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="socket" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="socketserver" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="sre_compile" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="sre_constants" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="sre_parse" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="ssl" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="stat" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="statistics" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="string" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="stringprep" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="struct" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="subprocess" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="symtable" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="sysconfig" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="tarfile" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="tempfile" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="termios" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="textwrap" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="threading" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="timeit" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="token" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="tokenize" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="trace" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="traceback" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="tracemalloc" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="tty" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="types" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="typing" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="unicodedata" kind="PythonExtensionModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="urllib" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="urllib.error" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="urllib.parse" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="urllib.request" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.06" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="urllib.response" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="urllib.robotparser" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="uu" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="uuid" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="warnings" kind="UncompiledPythonModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="wave" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="weakref" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="webbrowser" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xdrlib" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.NodeFilter" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.domreg" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.expatbuilder" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.minicompat" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.minidom" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.pulldom" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.dom.xmlbuilder" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.etree" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.etree.ElementInclude" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.etree.ElementPath" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.etree.ElementTree" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.etree.cElementTree" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.parsers" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.parsers.expat" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.sax" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.sax._exceptions" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.sax.expatreader" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.sax.handler" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.sax.saxutils" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xml.sax.xmlreader" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xmlrpc" kind="UncompiledPythonPackage" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xmlrpc.client" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="xmlrpc.server" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="zipapp" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="zipfile" kind="UncompiledPythonModule" reason="Part of standard library">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <module name="zlib" kind="PythonExtensionModule" reason="Module needed for initializing Python">
+    <optimization-time pass="1" time="0.00" />
+    <optimization-time pass="2" time="0.00" />
+    <module_usages />
+  </module>
+  <included_extension name="_bisect.so" dest_path="_bisect.so" source_path="/usr/lib64/python3.10/lib-dynload/_bisect.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_blake2.so" dest_path="_blake2.so" source_path="/usr/lib64/python3.10/lib-dynload/_blake2.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_bz2.so" dest_path="_bz2.so" source_path="/usr/lib64/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_codecs_cn.so" dest_path="_codecs_cn.so" source_path="/usr/lib64/python3.10/lib-dynload/_codecs_cn.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_codecs_hk.so" dest_path="_codecs_hk.so" source_path="/usr/lib64/python3.10/lib-dynload/_codecs_hk.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_codecs_iso2022.so" dest_path="_codecs_iso2022.so" source_path="/usr/lib64/python3.10/lib-dynload/_codecs_iso2022.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_codecs_jp.so" dest_path="_codecs_jp.so" source_path="/usr/lib64/python3.10/lib-dynload/_codecs_jp.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_codecs_kr.so" dest_path="_codecs_kr.so" source_path="/usr/lib64/python3.10/lib-dynload/_codecs_kr.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_codecs_tw.so" dest_path="_codecs_tw.so" source_path="/usr/lib64/python3.10/lib-dynload/_codecs_tw.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_contextvars.so" dest_path="_contextvars.so" source_path="/usr/lib64/python3.10/lib-dynload/_contextvars.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_crypt.so" dest_path="_crypt.so" source_path="/usr/lib64/python3.10/lib-dynload/_crypt.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_csv.so" dest_path="_csv.so" source_path="/usr/lib64/python3.10/lib-dynload/_csv.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_ctypes.so" dest_path="_ctypes.so" source_path="/usr/lib64/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_datetime.so" dest_path="_datetime.so" source_path="/usr/lib64/python3.10/lib-dynload/_datetime.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_dbm.so" dest_path="_dbm.so" source_path="/usr/lib64/python3.10/lib-dynload/_dbm.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_decimal.so" dest_path="_decimal.so" source_path="/usr/lib64/python3.10/lib-dynload/_decimal.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_elementtree.so" dest_path="_elementtree.so" source_path="/usr/lib64/python3.10/lib-dynload/_elementtree.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_hashlib.so" dest_path="_hashlib.so" source_path="/usr/lib64/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_heapq.so" dest_path="_heapq.so" source_path="/usr/lib64/python3.10/lib-dynload/_heapq.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_json.so" dest_path="_json.so" source_path="/usr/lib64/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_lzma.so" dest_path="_lzma.so" source_path="/usr/lib64/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_multibytecodec.so" dest_path="_multibytecodec.so" source_path="/usr/lib64/python3.10/lib-dynload/_multibytecodec.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_opcode.so" dest_path="_opcode.so" source_path="/usr/lib64/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_pickle.so" dest_path="_pickle.so" source_path="/usr/lib64/python3.10/lib-dynload/_pickle.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_posixsubprocess.so" dest_path="_posixsubprocess.so" source_path="/usr/lib64/python3.10/lib-dynload/_posixsubprocess.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_queue.so" dest_path="_queue.so" source_path="/usr/lib64/python3.10/lib-dynload/_queue.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_random.so" dest_path="_random.so" source_path="/usr/lib64/python3.10/lib-dynload/_random.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_sha512.so" dest_path="_sha512.so" source_path="/usr/lib64/python3.10/lib-dynload/_sha512.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_socket.so" dest_path="_socket.so" source_path="/usr/lib64/python3.10/lib-dynload/_socket.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_ssl.so" dest_path="_ssl.so" source_path="/usr/lib64/python3.10/lib-dynload/_ssl.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_statistics.so" dest_path="_statistics.so" source_path="/usr/lib64/python3.10/lib-dynload/_statistics.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_struct.so" dest_path="_struct.so" source_path="/usr/lib64/python3.10/lib-dynload/_struct.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="_uuid.so" dest_path="_uuid.so" source_path="/usr/lib64/python3.10/lib-dynload/_uuid.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="array.so" dest_path="array.so" source_path="/usr/lib64/python3.10/lib-dynload/array.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="audioop.so" dest_path="audioop.so" source_path="/usr/lib64/python3.10/lib-dynload/audioop.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="binascii.so" dest_path="binascii.so" source_path="/usr/lib64/python3.10/lib-dynload/binascii.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="fcntl.so" dest_path="fcntl.so" source_path="/usr/lib64/python3.10/lib-dynload/fcntl.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="grp.so" dest_path="grp.so" source_path="/usr/lib64/python3.10/lib-dynload/grp.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="math.so" dest_path="math.so" source_path="/usr/lib64/python3.10/lib-dynload/math.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="pyexpat.so" dest_path="pyexpat.so" source_path="/usr/lib64/python3.10/lib-dynload/pyexpat.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="select.so" dest_path="select.so" source_path="/usr/lib64/python3.10/lib-dynload/select.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="termios.so" dest_path="termios.so" source_path="/usr/lib64/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="unicodedata.so" dest_path="unicodedata.so" source_path="/usr/lib64/python3.10/lib-dynload/unicodedata.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_extension name="zlib.so" dest_path="zlib.so" source_path="/usr/lib64/python3.10/lib-dynload/zlib.cpython-310-x86_64-linux-gnu.so" package="" ignored="no" reason="used extension module" />
+  <included_dll name="libpython3.10.so.1.0" dest_path="libpython3.10.so.1.0" source_path="/lib64/libpython3.10.so.1.0" package="" ignored="no" reason="Used by 'beacon.bin'" />
+  <included_dll name="libbz2.so.1" dest_path="libbz2.so.1" source_path="/lib64/libbz2.so.1" package="" ignored="no" reason="Used by '_bz2.so'" />
+  <included_dll name="libffi.so.8" dest_path="libffi.so.8" source_path="/lib64/libffi.so.8" package="" ignored="no" reason="Used by '_ctypes.so'" />
+  <included_dll name="libgdbm_compat.so.4" dest_path="libgdbm_compat.so.4" source_path="/lib64/libgdbm_compat.so.4" package="" ignored="no" reason="Used by '_dbm.so'" />
+  <included_dll name="libgdbm.so.6" dest_path="libgdbm.so.6" source_path="/lib64/libgdbm.so.6" package="" ignored="no" reason="Used by '_dbm.so'" />
+  <included_dll name="libmpdec.so.3" dest_path="libmpdec.so.3" source_path="/lib64/libmpdec.so.3" package="" ignored="no" reason="Used by '_decimal.so'" />
+  <included_dll name="libcrypto.so.3" dest_path="libcrypto.so.3" source_path="/lib64/libcrypto.so.3" package="" ignored="no" reason="Used by '_hashlib.so'" />
+  <included_dll name="libz.so.1" dest_path="libz.so.1" source_path="/lib64/libz.so.1" package="" ignored="no" reason="Used by '_hashlib.so'" />
+  <included_dll name="liblzma.so.5" dest_path="liblzma.so.5" source_path="/lib64/liblzma.so.5" package="" ignored="no" reason="Used by '_lzma.so'" />
+  <included_dll name="libssl.so.3" dest_path="libssl.so.3" source_path="/lib64/libssl.so.3" package="" ignored="no" reason="Used by '_ssl.so'" />
+  <included_dll name="libuuid.so.1" dest_path="libuuid.so.1" source_path="/lib64/libuuid.so.1" package="" ignored="no" reason="Used by '_uuid.so'" />
+  <included_dll name="libexpat.so.1" dest_path="libexpat.so.1" source_path="/lib64/libexpat.so.1" package="" ignored="no" reason="Used by 'pyexpat.so'" />
+  <search_path>
+    <path value="/home/yassir/Documents/ExodusC2" />
+    <path value="/usr/lib64/python3.10" />
+    <path value="/usr/lib64/python3.10/lib-dynload" />
+    <path value="/home/yassir/.local/lib/python3.10/site-packages" />
+    <path value="/usr/lib64/python3.10/site-packages" />
+    <path value="/usr/lib/python3.10/site-packages" />
+  </search_path>
+  <command_line>
+    <option value="--follow-imports" />
+    <option value="--enable-plugin=anti-bloat" />
+    <option value="--onefile" />
+    <option value="beacon.py" />
+    <option value="--report=dingus" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="data-files" user_enabled="no" />
+    <plugin name="delvewheel" user_enabled="no" />
+    <plugin name="dll-files" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gevent" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="glfw" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="kivy" user_enabled="no" />
+    <plugin name="matplotlib" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pbr-compat" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="pywebview" user_enabled="no" />
+  </plugins>
+  <distributions />
+</nuitka-compilation-report>
