@@ -33,8 +33,8 @@ char* gen_uuid() {
     static char buf[37] = {0};
 
     //gen random for all spaces because lazy
+    srand(time(0));
     for(int i = 0; i < 36; ++i) {
-        srand(time(0));
         buf[i] = v[rand()%16];
     }
 
