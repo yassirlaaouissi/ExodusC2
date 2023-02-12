@@ -20,20 +20,20 @@ void beacon_connect_to_server(char IP[16], int PORT){
 
     // INIT SOCKET = AF_INET (IPv4), SOCK_STREAM (Stream), IPPROTO_TCP (TCP)
     SOCKET s =  WSASocketA(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0); 
-    printf("\n%d", s);
+    //printf("\n%d", s);
     // IP+PORT SPEC
     int iResult;
     int jResult;
-    printf("\n\n\nasasasasasa");
+    //printf("\n\n\nasasasasasa");
     struct sockaddr_in clientService;
     clientService.sin_family = AF_INET;
     clientService.sin_addr.s_addr = inet_addr(IP);
     clientService.sin_port = htons(PORT);
-    printf("asasasasasa");
+    //printf("asasasasasa");
 
     // Connect to server.
     iResult = connect(s, (struct sockaddr*) &clientService, sizeof (clientService));
-    printf("%d", iResult);
+    //printf("%d", iResult);
 
 
     // Generate and send beacon metadata     
@@ -47,6 +47,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     char recvbuf[recvbuflen];
 
     //// Send metadata
+    printf("\nSENDBUF\n");
     printf("\n%s\n", sendbuf);
     send(s, sendbuf, (int)strlen(sendbuf), 0); 
   
@@ -74,7 +75,7 @@ int main(int argc, char *argv[]) {
     if( argc == 3 ) {
         char IP [16]; strcpy(IP, argv[1]);
         int PORT = atoi(argv[2]);
-        printf("asasasasasa");
+        //printf("asasasasasa");
         beacon_connect_to_server(IP, PORT);
     }
     else if( argc > 3 ) {
