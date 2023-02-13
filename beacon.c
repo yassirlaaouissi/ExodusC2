@@ -9,9 +9,10 @@
 #include <time.h>
 #include <processthreadsapi.h>
 
-
+#pragma comment(linked, "/ENTRY:entry")
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "rpcrt4.lib")
+
 
 
 BOOL send_all(int socket, void *buffer, size_t length)

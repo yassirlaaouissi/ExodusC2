@@ -24,6 +24,7 @@ Amazing picture made by some dude with Midjourney
   + DLL Unhooking
   + NTAPI callback evasion
   + Covert channels TO MAKE: TCP, HTTP, HTTP2, HTTP3, DNS, ICMP, FTP, IMAP, MAPI, DNS over HTTPS (DoH), SMB and anything you can make yourself.
+  + TODO: Shrink size by disabling CRT and Implementing VX-API
 
 - Server
   + Intended for file hosting and beacon comms
