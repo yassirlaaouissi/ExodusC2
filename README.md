@@ -1,3 +1,6 @@
+
+> unfinished overambitious project
+
 # ExodusC2
 This Command and Control PoC is made to cross the red sea of blue teaming solutions. ExodusC2 is not to be confused with the mobile malware strain called Exodus, and no I am not christian though I like the biblical reference. Operating from a beacon-server model, it (intends to ) evade(s) at least some commercial EDR solutions. Beacons/clients in ExodusC2 leverage from functions of ScareCrow, a famous payload generation tool payloads that want to evade monitoring solutions. 
 
